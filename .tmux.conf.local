@@ -298,6 +298,9 @@ bind C-a send-prefix
 # automatic environment restore
 set -g @continuum-restore 'on'
 
+# save vim sessions
+set -g @resurrect-strategy-vim 'session'
+
 # List of plugins
 set -g @tpm_plugins '\
   tmux-plugins/tpm \
